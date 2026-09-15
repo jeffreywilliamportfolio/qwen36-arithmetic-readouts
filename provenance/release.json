@@ -1,0 +1,11 @@
+{
+  "version": "1.0.2",
+  "released": "2026-09-14",
+  "hf_repo": "ec75hash/qwen36-arithmetic-readouts",
+  "hf_revision": "ddf3417b9058af55ab2f02c3629d55c2becc06cf",
+  "hf_release_tag": "v1.0.2",
+  "github_repo": "jeffreywilliamportfolio/qwen36-arithmetic-readouts",
+  "github_release_tag": "v1.0.2",
+  "note": "The pinned HF artifact commit contains the original raw observations and checkpoint. The v1.0.2 tags identify the aligned documentation, checksums, and code on each platform.",
+  "checkpoint_available": true
+}

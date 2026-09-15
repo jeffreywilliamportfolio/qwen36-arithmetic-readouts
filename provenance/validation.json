@@ -1,0 +1,103 @@
+{
+  "offline_audit_date": "2026-09-14",
+  "new_model_inference": false,
+  "evidence_files": 1349,
+  "raw_payload_equality_checked": true,
+  "original_freeze_hashes_verified": 12,
+  "byte_identical_frozen_files_in_release": 6,
+  "published_rows_match_independent_audit": 105,
+  "raw_prompt_token_sequences": 210,
+  "local_reader_dry_run": {
+    "items": 105,
+    "prompt_variants": 210,
+    "api_token_id_mismatches": 0,
+    "unreachable_intermediates": 0,
+    "heldout_single_token_form_misses": 0
+  },
+  "api_request_dry_run": 210,
+  "calibration_dry_run": {
+    "prompts": 5,
+    "tokens_each": 128,
+    "doc_indices": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  "checkpoint_safe_load": {
+    "weights_only": true,
+    "n_prompts": 5,
+    "matrices": 62,
+    "shape": [
+      5120,
+      5120
+    ],
+    "dtype": "torch.float16"
+  },
+  "checkpoint_payload_entries_verified": 68,
+  "dataset_card_validation": "passed",
+  "publication_identity_and_credential_pattern_scan": "passed",
+  "public_reproduction": {
+    "initial_github_commit": "6386be56b3b75a3e843433d6b5c0ee5d3d76b210",
+    "github_actions_run": "https://github.com/jeffreywilliamportfolio/qwen36-arithmetic-readouts/actions/runs/34906717478",
+    "github_actions_conclusion": "success",
+    "independent_clean_clone_download": "passed",
+    "independent_clean_clone_rescore": "all 105 rows and every published aggregate match",
+    "dataset_viewer_configs": [
+      "item_results",
+      "prompt_tokens"
+    ],
+    "dataset_viewer_failures": []
+  },
+  "public_checkpoint": {
+    "revision": "09f6fbb4f76ed93c78ecf3da884335601e00569c",
+    "sha256": "a78887e6e7cef359090c4e865e5efbd5303f0112505aba71b532492cdb91496a",
+    "bytes": 3250600033,
+    "anonymous_range_download": "passed"
+  },
+  "decoded_calibration_identity_and_credential_scan": "passed",
+  "v1_0_1_update": {
+    "date": "2026-09-14",
+    "change": "restored byte-identical frozen originals (12 files) plus the verbatim FREEZE.sha256; added FREEZE.verify.sha256 and a CI freeze-verification step; restored the original lens checkpoint bytes",
+    "freeze_verification": "shasum -a 256 -c FREEZE.verify.sha256 -> 12 OK (run locally pre-push; also executed in CI on every push)",
+    "byte_identical_frozen_files_in_release": 12,
+    "checkpoint_sha256": "fd9af5fdb7322c9559e7a4702a845c7db0d92f780e53fdf415df899e065e0022",
+    "checkpoint_matches_frozen_v2_manifest": true,
+    "checkpoint_payload_entries_recomputed": 68
+  },
+  "v1_0_2_update": {
+    "date": "2026-09-14",
+    "change": "Align both releases with the original raw observation files, correct the chronology, and preserve earlier audit records.",
+    "previous_github_commit": "14101a3556bfbcd0d2733ccd1da499832de68247",
+    "hf_artifact_revision": "ddf3417b9058af55ab2f02c3629d55c2becc06cf",
+    "archive_sha256": "d1588433a1e5e08b5fd344abdc8d89822b845b35deebe894ef49e8c2ab1a47e6",
+    "local_verification": {
+      "frozen_hashes_verified": 12,
+      "frozen_file_bytes_unchanged_from_v1_0_1": true,
+      "raw_files_verified_against_manifest": 1349,
+      "raw_files_byte_identical_to_preserved_originals": 1349,
+      "published_rows_reproduced": 105,
+      "all_published_aggregates_reproduced": true,
+      "measurement_values_and_scorer_unchanged": true,
+      "summary_changes": "Observation inventory byte sizes only",
+      "api_request_dry_run": 210,
+      "calibration_dry_run": {
+        "prompts": 5,
+        "tokens_each": 128,
+        "doc_indices": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ]
+      },
+      "new_model_inference": false
+    },
+    "public_ci_workflow": "https://github.com/jeffreywilliamportfolio/qwen36-arithmetic-readouts/actions/workflows/reproduce.yml",
+    "historical_artifact_manifests": "provenance/history/v1.0.1/",
+    "note": "This update records local checks before publication. The GitHub workflow records the checks run on the published commit."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "examples": [
+    {
+      "text": "46",
+      "ids": [
+        19,
+        21
+      ],
+      "decoded_pieces": [
+        "4",
+        "6"
+      ]
+    },
+    {
+      "text": " 46",
+      "ids": [
+        220,
+        19,
+        21
+      ],
+      "decoded_pieces": [
+        " ",
+        "4",
+        "6"
+      ]
+    },
+    {
+      "text": "四十六",
+      "ids": [
+        96301,
+        100847
+      ],
+      "decoded_pieces": [
+        "四",
+        "十六"
+      ]
+    },
+    {
+      "text": "四十",
+      "ids": [
+        111343
+      ],
+      "decoded_pieces": [
+        "四十"
+      ]
+    },
+    {
+      "text": "二十三",
+      "ids": [
+        131734
+      ],
+      "decoded_pieces": [
+        "二十三"
+      ]
+    },
+    {
+      "text": "12",
+      "ids": [
+        16,
+        17
+      ],
+      "decoded_pieces": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "text": "十二",
+      "ids": [
+        98175
+      ],
+      "decoded_pieces": [
+        "十二"
+      ]
+    },
+    {
+      "text": "23",
+      "ids": [
+        17,
+        18
+      ],
+      "decoded_pieces": [
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "api_token_id_mismatches": [],
+  "matching_vocab_entries": {
+    "46": [],
+    "forty six": [],
+    "forty-six": [],
+    "fortysix": [],
+    "twelve": [
+      {
+        "id": 28279,
+        "text": " twelve"
+      },
+      {
+        "id": 66887,
+        "text": " Twelve"
+      }
+    ],
+    "二十三": [
+      {
+        "id": 131734,
+        "text": "二十三"
+      }
+    ],
+    "十二": [
+      {
+        "id": 98175,
+        "text": "十二"
+      }
+    ],
+    "四十": [
+      {
+        "id": 111343,
+        "text": "四十"
+      }
+    ],
+    "四十六": []
+  }
+}

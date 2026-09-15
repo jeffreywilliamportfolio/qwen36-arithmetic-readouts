@@ -1,0 +1,14 @@
+{
+  "raw_reads": {
+    "path": "artifacts/raw_reads.tar.gz",
+    "sha256": "9eb9e2e32f5bfd8286975883265129c81089ac89585507d3cfb6d45035672fa8",
+    "bytes": 85254200,
+    "files": 1349,
+    "uncompressed_bytes": 259822733
+  },
+  "pile5_lens": {
+    "path": "lenses/qwen36_pile5.pt",
+    "sha256": "fd9af5fdb7322c9559e7a4702a845c7db0d92f780e53fdf415df899e065e0022",
+    "bytes": 3250605069
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "scope": "Offline aggregation of the published September 4-5 captures; no new inference",
+  "metrics": {
+    "paper": {
+      "pass1": {
+        "k": 24,
+        "n": 55,
+        "rate": 0.43636363636363634
+      },
+      "pass3": {
+        "k": 41,
+        "n": 55,
+        "rate": 0.7454545454545455
+      },
+      "no_space_pass1": {
+        "k": 4,
+        "n": 55,
+        "rate": 0.07272727272727272
+      },
+      "baseline_pass1": {
+        "k": 22,
+        "n": 298,
+        "rate": 0.0738255033557047
+      },
+      "baseline_pass3": {
+        "k": 76,
+        "n": 298,
+        "rate": 0.2550335570469799
+      },
+      "sign_test": {
+        "wins": 42,
+        "losses": 12,
+        "ties": 1,
+        "p": 5.2094472007935266e-05
+      }
+    },
+    "new": {
+      "pass1": {
+        "k": 24,
+        "n": 50,
+        "rate": 0.48
+      },
+      "pass3": {
+        "k": 36,
+        "n": 50,
+        "rate": 0.72
+      },
+      "no_space_pass1": {
+        "k": 0,
+        "n": 50,
+        "rate": 0.0
+      },
+      "baseline_pass1": {
+        "k": 13,
+        "n": 250,
+        "rate": 0.052
+      },
+      "baseline_pass3": {
+        "k": 80,
+        "n": 250,
+        "rate": 0.32
+      },
+      "sign_test": {
+        "wins": 39,
+        "losses": 11,
+        "ties": 0,
+        "p": 9.021490107130603e-05
+      }
+    },
+    "all": {
+      "pass1": {
+        "k": 48,
+        "n": 105,
+        "rate": 0.45714285714285713
+      },
+      "pass3": {
+        "k": 77,
+        "n": 105,
+        "rate": 0.7333333333333333
+      },
+      "no_space_pass1": {
+        "k": 4,
+        "n": 105,
+        "rate": 0.0380952380952381
+      },
+      "baseline_pass1": {
+        "k": 35,
+        "n": 548,
+        "rate": 0.06386861313868614
+      },
+      "baseline_pass3": {
+        "k": 156,
+        "n": 548,
+        "rate": 0.2846715328467153
+      },
+      "sign_test": {
+        "wins": 81,
+        "losses": 23,
+        "ties": 1,
+        "p": 9.344702083080037e-09
+      }
+    }
+  },
+  "correct_paper": {
+    "pass1": {
+      "k": 16,
+      "n": 47,
+      "rate": 0.3404255319148936
+    },
+    "pass3": {
+      "k": 33,
+      "n": 47,
+      "rate": 0.7021276595744681
+    },
+    "no_space_pass1": {
+      "k": 2,
+      "n": 47,
+      "rate": 0.0425531914893617
+    },
+    "baseline_pass1": {
+      "k": 20,
+      "n": 257,
+      "rate": 0.07782101167315175
+    },
+    "baseline_pass3": {
+      "k": 68,
+      "n": 257,
+      "rate": 0.26459143968871596
+    },
+    "sign_test": {
+      "wins": 34,
+      "losses": 12,
+      "ties": 1,
+      "p": 0.0016414913408482334
+    }
+  },
+  "admissible": {
+    "paper": {
+      "pass1": {
+        "k": 2,
+        "n": 12,
+        "rate": 0.16666666666666666
+      },
+      "pass3": {
+        "k": 7,
+        "n": 12,
+        "rate": 0.5833333333333334
+      },
+      "no_space_pass1": {
+        "k": 0,
+        "n": 12,
+        "rate": 0.0
+      },
+      "baseline_pass1": {
+        "k": 6,
+        "n": 66,
+        "rate": 0.09090909090909091
+      },
+      "baseline_pass3": {
+        "k": 20,
+        "n": 66,
+        "rate": 0.30303030303030304
+      },
+      "sign_test": {
+        "wins": 7,
+        "losses": 5,
+        "ties": 0,
+        "p": 0.7744140625
+      }
+    },
+    "new": {
+      "pass1": {
+        "k": 6,
+        "n": 12,
+        "rate": 0.5
+      },
+      "pass3": {
+        "k": 8,
+        "n": 12,
+        "rate": 0.6666666666666666
+      },
+      "no_space_pass1": {
+        "k": 0,
+        "n": 12,
+        "rate": 0.0
+      },
+      "baseline_pass1": {
+        "k": 2,
+        "n": 65,
+        "rate": 0.03076923076923077
+      },
+      "baseline_pass3": {
+        "k": 23,
+        "n": 65,
+        "rate": 0.35384615384615387
+      },
+      "sign_test": {
+        "wins": 9,
+        "losses": 3,
+        "ties": 0,
+        "p": 0.14599609375
+      }
+    },
+    "all": {
+      "pass1": {
+        "k": 8,
+        "n": 24,
+        "rate": 0.3333333333333333
+      },
+      "pass3": {
+        "k": 15,
+        "n": 24,
+        "rate": 0.625
+      },
+      "no_space_pass1": {
+        "k": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "baseline_pass1": {
+        "k": 8,
+        "n": 131,
+        "rate": 0.061068702290076333
+      },
+      "baseline_pass3": {
+        "k": 43,
+        "n": 131,
+        "rate": 0.3282442748091603
+      },
+      "sign_test": {
+        "wins": 16,
+        "losses": 8,
+        "ties": 0,
+        "p": 0.15158963203430176
+      }
+    }
+  },
+  "cjk": {
+    "two_digit_rank1": 22,
+    "of_these_cjk_rank1": 20,
+    "new_two_digit": {
+      "with_cjk": {
+        "k": 13,
+        "n": 25,
+        "rate": 0.52
+      },
+      "without_cjk": {
+        "k": 3,
+        "n": 25,
+        "rate": 0.12
+      },
+      "pile5_with_cjk": {
+        "k": 13,
+        "n": 25,
+        "rate": 0.52
+      },
+      "pile5_without_cjk": {
+        "k": 3,
+        "n": 25,
+        "rate": 0.12
+      }
+    },
+    "new_single_digit": {
+      "with_cjk": {
+        "k": 11,
+        "n": 25,
+        "rate": 0.44
+      },
+      "without_cjk": {
+        "k": 11,
+        "n": 25,
+        "rate": 0.44
+      },
+      "pile5_with_cjk": {
+        "k": 8,
+        "n": 25,
+        "rate": 0.32
+      },
+      "pile5_without_cjk": {
+        "k": 8,
+        "n": 25,
+        "rate": 0.32
+      }
+    }
+  },
+  "position": {
+    "equals_hits_in_space_prompt": 4,
+    "pile5_no_space_hits": 4,
+    "previous_equals_vs_no_space_rank_disagreements": []
+  },
+  "next_token_control": {
+    "rank1": 48,
+    "rank1_and_output_top8": 24,
+    "rank3": 77,
+    "rank3_absent_output_top8": 30
+  },
+  "box": {
+    "hosted_n1000": {
+      "pass1": 48,
+      "pass3": 77,
+      "jacobian_only_pass1": 48,
+      "top8_pass1": 47
+    },
+    "pile5": {
+      "pass1": 45,
+      "pass3": 60,
+      "jacobian_only_pass1": 43,
+      "top8_pass1": 44
+    },
+    "api_local_top8_pass1_agreement": 104,
+    "pile5_to_hosted_rank1_ratio": 0.9375,
+    "pile5_to_hosted_rank3_ratio": 0.7792207792207793,
+    "rank1_item_overlap": 35
+  },
+  "decoys": {
+    "n": 67,
+    "wins": 49,
+    "losses": 8,
+    "ties": 10
+  },
+  "continuation_reparse": {
+    "correctness_disagreements": [],
+    "gate_disagreements": [],
+    "reparsed_admissible": 24
+  },
+  "inventory": {
+    "v2_api": {
+      "files": 389,
+      "bytes": 25754848,
+      "largest_bytes": 216020
+    },
+    "v2_box/hosted_n1000": {
+      "files": 210,
+      "bytes": 76454234,
+      "largest_bytes": 626928
+    },
+    "v2_box/pile5": {
+      "files": 210,
+      "bytes": 81368070,
+      "largest_bytes": 670606
+    },
+    "v2_box/continuations": {
+      "files": 210,
+      "bytes": 92512,
+      "largest_bytes": 505
+    },
+    "v2_box_full": {
+      "files": 330,
+      "bytes": 86463939,
+      "largest_bytes": 673934
+    }
+  },
+  "api_c_count": 74,
+  "coverage": {
+    "items": 105,
+    "api_prompt_variants": 210,
+    "strict_gate_complete_items": 105,
+    "partial_api_gate_items": 74
+  }
+}

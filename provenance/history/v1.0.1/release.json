@@ -1,0 +1,9 @@
+{
+ "version": "1.0.1",
+ "released": "2026-09-14",
+ "hf_repo": "ec75hash/qwen36-arithmetic-readouts",
+ "hf_revision": "23081127dc542b2dbec3d76ae586f9e53b990dea",
+ "github_repo": "jeffreywilliamportfolio/qwen36-arithmetic-readouts",
+ "note": "Pinned immutable dataset commit containing the raw archive and the original-bytes lens checkpoint; documentation may receive later updates.",
+ "checkpoint_available": true
+}

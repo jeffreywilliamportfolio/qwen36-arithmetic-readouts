@@ -1,0 +1,119 @@
+[
+ {
+  "source_label": "PREREG_orderops_v2.md",
+  "original_sha256": "5cd441ec9edb5a3df80c1294fbe0ae154aa5573ba141715f67ee3ccd0f21e1e0",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/PREREG_orderops_v2.md",
+  "publication_sha256": "5cd441ec9edb5a3df80c1294fbe0ae154aa5573ba141715f67ee3ccd0f21e1e0",
+  "byte_identical": true,
+  "recorded_annotation": "v1.0.0 published a normalized rendering (identity labels/local path); v1.0.1 restored the byte-identical original"
+ },
+ {
+  "source_label": "order_ops.json",
+  "original_sha256": "b203206d16ff628152cc86f3838604e06cb54776f3e14fa1c34f150db8bc7560",
+  "original_verified_locally": true,
+  "publication_path": "data/order_ops.json",
+  "publication_sha256": "b203206d16ff628152cc86f3838604e06cb54776f3e14fa1c34f150db8bc7560",
+  "byte_identical": true,
+  "recorded_annotation": "byte-identical in v1.0.0 and v1.0.1"
+ },
+ {
+  "source_label": "items_new50.json",
+  "original_sha256": "6f08fc447b0930b546756a672e36b8871cc0e45321082ed70bee34ed36f03631",
+  "original_verified_locally": true,
+  "publication_path": "data/items_new50.json",
+  "publication_sha256": "6f08fc447b0930b546756a672e36b8871cc0e45321082ed70bee34ed36f03631",
+  "byte_identical": true,
+  "recorded_annotation": "byte-identical in v1.0.0 and v1.0.1"
+ },
+ {
+  "source_label": "score_orderops.py",
+  "original_sha256": "5bb4e0718cea342a1f0755276b39aed55d1f0b935ff8812f76cc6f2f71984eb2",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/score_orderops.py",
+  "publication_sha256": "5bb4e0718cea342a1f0755276b39aed55d1f0b935ff8812f76cc6f2f71984eb2",
+  "byte_identical": true,
+  "recorded_annotation": "byte-identical in v1.0.0 and v1.0.1"
+ },
+ {
+  "source_label": "run_v2_api.py",
+  "original_sha256": "ce81daaab02e0abde568afc59ee087e7d32de061ddaddead99c8d79a73cb529b",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/run_v2_api.py",
+  "publication_sha256": "ce81daaab02e0abde568afc59ee087e7d32de061ddaddead99c8d79a73cb529b",
+  "byte_identical": true,
+  "recorded_annotation": "v1.0.0 published a normalized rendering (identity labels/local path); v1.0.1 restored the byte-identical original"
+ },
+ {
+  "source_label": "PREREG_orderops_v2_ADDENDUM.md",
+  "original_sha256": "e7f887ac4c5a6d9cc1d8afa10e3c73465e60b35cf15d4dd73c667c5243e72eb0",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/PREREG_orderops_v2_ADDENDUM.md",
+  "publication_sha256": "e7f887ac4c5a6d9cc1d8afa10e3c73465e60b35cf15d4dd73c667c5243e72eb0",
+  "byte_identical": true,
+  "recorded_annotation": "byte-identical in v1.0.0 and v1.0.1"
+ },
+ {
+  "source_label": "run_v2_apiB2.py",
+  "original_sha256": "5be011619a03ff32dbdc94a16dcafa322cb892f908d7c56a3a4e707b2b4c7b95",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/run_v2_apiB2.py",
+  "publication_sha256": "5be011619a03ff32dbdc94a16dcafa322cb892f908d7c56a3a4e707b2b4c7b95",
+  "byte_identical": true,
+  "recorded_annotation": "v1.0.0 published a normalized rendering (identity labels/local path); v1.0.1 restored the byte-identical original"
+ },
+ {
+  "source_label": "PREREG_orderops_v2_ADDENDUM2.md",
+  "original_sha256": "4260a48ac8ed0d6585070d0fbe90c5155ca084fed98becc40572200145eb3457",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/PREREG_orderops_v2_ADDENDUM2.md",
+  "publication_sha256": "4260a48ac8ed0d6585070d0fbe90c5155ca084fed98becc40572200145eb3457",
+  "byte_identical": true,
+  "recorded_annotation": "v1.0.0 published a normalized rendering (identity labels/local path); v1.0.1 restored the byte-identical original"
+ },
+ {
+  "source_label": "PREREG_orderops_v2_ADDENDUM3.md",
+  "original_sha256": "9c895643aceb7afca970dc4e66c1c2bb929b3c83ae135e686686eeff2ab3c1ae",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/PREREG_orderops_v2_ADDENDUM3.md",
+  "publication_sha256": "9c895643aceb7afca970dc4e66c1c2bb929b3c83ae135e686686eeff2ab3c1ae",
+  "byte_identical": true,
+  "recorded_annotation": "byte-identical in v1.0.0 and v1.0.1"
+ },
+ {
+  "source_label": "run_v2_apiC.py",
+  "original_sha256": "b0f8b196cdb78809f2294772b0cd3078d7054c1d49884ed50722c312b033badf",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/run_v2_apiC.py",
+  "publication_sha256": "b0f8b196cdb78809f2294772b0cd3078d7054c1d49884ed50722c312b033badf",
+  "byte_identical": true,
+  "recorded_annotation": "v1.0.0 published a normalized rendering (identity labels/local path); v1.0.1 restored the byte-identical original"
+ },
+ {
+  "source_label": "PREREG_orderops_v2_ADDENDUM4.md",
+  "original_sha256": "0f7a26998745fd3d03e71fce7470907dba00713245ef780df543e9a0277e8c87",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/PREREG_orderops_v2_ADDENDUM4.md",
+  "publication_sha256": "0f7a26998745fd3d03e71fce7470907dba00713245ef780df543e9a0277e8c87",
+  "byte_identical": true,
+  "recorded_annotation": "byte-identical in v1.0.0 and v1.0.1"
+ },
+ {
+  "source_label": "PREREG_orderops_v2_ADDENDUM5.md",
+  "original_sha256": "5a48d65cac82171e55714ec6622ae63e0e95f041942152de803b9e2728ddf416",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/PREREG_orderops_v2_ADDENDUM5.md",
+  "publication_sha256": "5a48d65cac82171e55714ec6622ae63e0e95f041942152de803b9e2728ddf416",
+  "byte_identical": true,
+  "recorded_annotation": "v1.0.0 published a normalized rendering (identity labels/local path); v1.0.1 restored the byte-identical original"
+ },
+ {
+  "source_label": "FREEZE.sha256",
+  "original_sha256": "bfa19b7a8779b17b9395d95dac4cf823135f727c5b6e846b72e57b2e8c5c5f81",
+  "original_verified_locally": true,
+  "publication_path": "preregistration/record/FREEZE.sha256",
+  "publication_sha256": "bfa19b7a8779b17b9395d95dac4cf823135f727c5b6e846b72e57b2e8c5c5f81",
+  "byte_identical": true,
+  "recorded_annotation": "the historical freeze hash list itself, published verbatim in v1.0.1; its trailing inline note breaks naive 'shasum -c', use FREEZE.verify.sha256 at the repository root"
+ }
+]

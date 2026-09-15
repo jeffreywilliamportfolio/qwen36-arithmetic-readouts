@@ -1,0 +1,416 @@
+{
+ "path": "lenses/qwen36_pile5.pt",
+ "n_prompts": 5,
+ "d_model": 5120,
+ "source_layers": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61
+ ],
+ "target_block": 62,
+ "sha256": "fd9af5fdb7322c9559e7a4702a845c7db0d92f780e53fdf415df899e065e0022",
+ "bytes": 3250605069,
+ "transformation": "none in v1.0.1 - original checkpoint bytes, matching the frozen v2 capture manifest hash; v1.0.0 had republished it with a renamed ZIP entry prefix (payloads byte-identical)",
+ "internal_prefix_note": "the archive's internal directory name ends in 'neel25', a historical misnomer: the fit used 5 prompts (see PREREG_orderops_v2_ADDENDUM5.md); results label this lens pile5/neel5",
+ "entries": [
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data.pkl",
+   "payload_sha256": "0c7ce22772cb3b87b8cbe2065cfa0a0250ede23ce00abe605088f538f9b11e4e",
+   "bytes": 4706
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/.format_version",
+   "payload_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+   "bytes": 1
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/.storage_alignment",
+   "payload_sha256": "a68b412c4282555f15546cf6e1fc42893b7e07f271557ceb021821098dd66c1b",
+   "bytes": 2
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/byteorder",
+   "payload_sha256": "180ca01b95f0dfdd36fbb600e51cf6e46c8ef468de56b017847886fefaf7b6f9",
+   "bytes": 6
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/0",
+   "payload_sha256": "9a22370f6eb84b4a42a69f97b5dbaa13def0697c8d1740a0d0c86d6e59498eb3",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/1",
+   "payload_sha256": "10fff466c864c4a57f7614e9438aa0c5648cfb06ea94b722039f2684b5b2d897",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/2",
+   "payload_sha256": "87cca1d831fad2170fad960ccad99b57716fff52e9804cc868392d52ea1bfb8a",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/3",
+   "payload_sha256": "fb3329bed6c9f88af262376577a5aa5e0c4009f3b2014da20de3158c2ae7e80f",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/4",
+   "payload_sha256": "ff2fa55215c0a94cd2f4859a9234ead8876e90ab89f3199f88fd006b065da384",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/5",
+   "payload_sha256": "7f7cd900099d74d91a668ddf55bc563dc85d9d87dc1487cc93f4618d004f293c",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/6",
+   "payload_sha256": "cc2d39460edea924a2c514cfca57d4cfc3c0e77e3df161659f970d02530f0803",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/7",
+   "payload_sha256": "b4c6ed0b5be2581f22f8cac6d042793ddf276d91d087cc0c0a58f8fe5d50a00e",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/8",
+   "payload_sha256": "2bd4a07cfe97db2cf6e60d9dff0aec14e6af2f6eea04e5843210f97d69602e0c",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/9",
+   "payload_sha256": "f2c2a9b4670fb17327c5bbc5256d5cb37a0434c8f15c2dce7584ad3114fadc26",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/10",
+   "payload_sha256": "b023034f181106eb0856a49c53c0a218bd08eacc5a22fa5e9629dc8f8cdbd22e",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/11",
+   "payload_sha256": "33ac4df5cab32cbee2c390f9669c8926f5a6c8dc15ca8698288f47ff49c788af",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/12",
+   "payload_sha256": "0f5377e944225afd9057d982d7ee1096d90d248e9411f0fede272a3f667cca90",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/13",
+   "payload_sha256": "985f8744b0bba5516a1646945de08ee9775ac6548d66fea79308abfcf4631679",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/14",
+   "payload_sha256": "1f5abe142a60daa42f485a449438871ddf173a554756c750b5bc0b8529f7e821",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/15",
+   "payload_sha256": "b0e592800c2f0d20d10ac8ea0f295c1bab84359879e4b73ccd9d42c5c938afc5",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/16",
+   "payload_sha256": "4f1522bc8085d9e488e1de942d9a871c5dcbc4ea5cea4aa22932480a7aec0d8a",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/17",
+   "payload_sha256": "3c9519578d6a0cdc6d7722321c6413efef85c95bcaa3f1f77a192a4497e9569f",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/18",
+   "payload_sha256": "7cdcd8a9595d68daea20d125d8008a10ed318e6175b32f96abbcd58d6ef7981a",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/19",
+   "payload_sha256": "7f7bac92708e55f83375b0b1147232920c7b893b65ff0a0759d542f3aadb414a",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/20",
+   "payload_sha256": "e41ea00f447cd8844109ddc832cdf46deb357e3cd18d29506bd08d8a4a38408a",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/21",
+   "payload_sha256": "39c40c4631f2747b9ef491d3caed03a099a9f207dade0f884673dbc502df2a41",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/22",
+   "payload_sha256": "3e7fc596fa5dd1776abc47c91607a017b050a15b57cbee077673f858c789ae65",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/23",
+   "payload_sha256": "a08a9f57741f7ca862cfc486d94d658e5fea0e987fab040e9025cb8e04442a5d",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/24",
+   "payload_sha256": "87a1440f43222e912b47c90599a432bb13545b42483fd97282e6c1c4ef4a6e2d",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/25",
+   "payload_sha256": "6d77fde2837b60e25e7b74174a1a8cf2d1e23738220a8a44e66a91112254050c",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/26",
+   "payload_sha256": "7faca3f535677dc26b878b582d0a67d971bd4dbf95adea2668c48a1481e18e4c",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/27",
+   "payload_sha256": "f8897ba29593e259d634c7aa02ec04f9e77e4bc326cb7d2d1792ac40455849fd",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/28",
+   "payload_sha256": "94008ea827132d95465027b43976900f3db3e2c019c9376366c0cca672b5f30c",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/29",
+   "payload_sha256": "70fac769dfdf9c70486f21cbd78c42f4b27661b926e7e0a918666448114ab962",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/30",
+   "payload_sha256": "4c355f691524fc148a87bc9ba28b75b9af008abee9ac87923b7ac3371b748ad6",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/31",
+   "payload_sha256": "4007087f0271bb998827cf48111edd0f26d628934e3a06c6a304f1bbd1056e5d",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/32",
+   "payload_sha256": "ba61833e5966f19da74992045abc67b7227341c9a58e16a9c90ebc560656b954",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/33",
+   "payload_sha256": "ef44929f8876378817b8f447f04bf261f0a8672e48da2b89b2e38c6e197f30c3",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/34",
+   "payload_sha256": "1c8a9e22e9a3e1ce478cb78dc6ff2f76ae8b22bc9d9a2221d76abdc235ae1de4",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/35",
+   "payload_sha256": "f8cc63345c30538b95354db303526e5400f092261d9b4ebdbf000b980fe45490",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/36",
+   "payload_sha256": "c41be3656c1b305866abe1373923a9e48054029e9813a01f4c906f2e0a9eb7d8",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/37",
+   "payload_sha256": "e2553ac93e973f587f3b0c410a517f96fdcb7e8861a1be4aa74ae49a14994965",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/38",
+   "payload_sha256": "1bb87f09c3d2412ee9497f16fa21ed828562574512df893720acbe90e252ba81",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/39",
+   "payload_sha256": "f4eb12ff162a7cfb89e1a7f2f5180fe55a3c9e549ef589e2483cf92013e51442",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/40",
+   "payload_sha256": "0b78bded671b82da6f353b1b526e50ea02251e43998d51fa37333ef8df53c342",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/41",
+   "payload_sha256": "7915f13008720268d70755765051549e8b9c10b00b867e779cb6d0c37d5cc4bf",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/42",
+   "payload_sha256": "dde932e73fda2da185d18037437691901ba4b8ffc82043e0411e38a4d9409849",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/43",
+   "payload_sha256": "a152d503b71bef048910127ca53ce9f417f5e5adeedea76d7d37a7807b565683",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/44",
+   "payload_sha256": "d4984a7151501d6357c83cd38454d5470f78c402e02ef06ae8d4f6b638c5778d",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/45",
+   "payload_sha256": "babe5efff4a33027114696e93894c851db36fd7ae0867dfc1694e67620e434d4",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/46",
+   "payload_sha256": "6f7a8d401f863b2955c45b68987ca4fce8255ce351d00f3020c680a004794b34",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/47",
+   "payload_sha256": "e73c67760dd6c544b53fb116bf81b1396ce403967580538549fc533086c64761",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/48",
+   "payload_sha256": "c5de527313e36f4bb38187d0f07f9246f0e2d03160d3c6c0a65284d6215613d7",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/49",
+   "payload_sha256": "3df4d717015189719db64dde0d291058fae6539721eae3f8c411159e3fc15fdc",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/50",
+   "payload_sha256": "c1e232d0a8230c2d7fd9968c681ce729a98edef883ff97abd5d7f323eaef5c60",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/51",
+   "payload_sha256": "60061e49fde295761f4c8cb1936b9130ce16d481a26402fb91eaf7f6309ab009",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/52",
+   "payload_sha256": "bc5c6513a89f32b3060a83f051936f21c41f9d1899dc738d9dbc3485c94396bf",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/53",
+   "payload_sha256": "fdd481bb62813fa04109516eef36def2a791346d346b346a6d5e8a4f3d41bc24",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/54",
+   "payload_sha256": "bea2b56df92d603e28a1e63914c28b4d77c616c39afc035a0491fb08b5911f2b",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/55",
+   "payload_sha256": "4d9b84128077be9bca1891cc7fc12c67443b6a90c88f79a3ee887f061e9f7f32",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/56",
+   "payload_sha256": "7615abe168437b18ec6bce135c1f291b58b5e0c2513c9160d790bd9d009ae8ee",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/57",
+   "payload_sha256": "4ab79546f9eaba35ca9b88bca29f18e0049435384532995141070126024116ba",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/58",
+   "payload_sha256": "3120f4b2a52e3aefbf26dc2ddfccb4fa0af6078dd837c677659bf7295c8eb9f8",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/59",
+   "payload_sha256": "10f646deed07e7c959a3f1d5734239106088422c360ed6d71ed04d0a03375459",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/60",
+   "payload_sha256": "03ba9194ab64fa91cbf9daf77ae6989f5e7f3ba7e03ed1260313a9c173b1528c",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/data/61",
+   "payload_sha256": "fc54a9bbbb4fb0dd584dea07b4c7801d5174b7925db093b4e980607c3981d26f",
+   "bytes": 52428800
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/version",
+   "payload_sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2",
+   "bytes": 2
+  },
+  {
+   "entry": "Qwen3.6-27B_jacobian_lens_neel25/.data/serialization_id",
+   "payload_sha256": "6a15f9741c12c770af5cf8f697866cd80c979b1c602922d7caa25188bc638cf4",
+   "bytes": 40
+  }
+ ]
+}

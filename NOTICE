@@ -1,0 +1,15 @@
+Arithmetic Intermediate Readout Sensitivity on Qwen3.6-27B
+Copyright 2026 Jeffrey W. Shorthill.
+
+Code, evaluation inputs, measured readouts, and the fitted lens in this release are
+distributed under Apache-2.0 to the extent the contributor can grant those rights.
+The original 55 evaluation items come from anthropics/jacobian-lens, revision
+581d398613e5602a5af361e1c34d3a92ea82ba8e, licensed under Apache-2.0.
+The local fitting/reading runners integrate that library; their capture algorithms
+were recorded in September 2026 and their publication wrappers were adapted later.
+
+The 27B model weights and the hosted 1000-prompt lens are external dependencies.
+The five short Pile calibration token sequences retain the rights of their
+respective source material; this release does not grant additional rights in it.
+Pile component labels, source-text hashes, and document indices are recorded in
+calibration/prompts.json. They are supplied for scientific reproducibility.

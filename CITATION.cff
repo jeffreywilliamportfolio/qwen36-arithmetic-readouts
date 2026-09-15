@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using its measurements or code."
+title: "Arithmetic Intermediate Readout Sensitivity on Qwen3.6-27B"
+type: dataset
+authors:
+  - family-names: Shorthill
+    given-names: Jeffrey W.
+date-released: 2026-09-14
+version: 1.0.2
+license: Apache-2.0
+repository-code: "https://github.com/jeffreywilliamportfolio/qwen36-arithmetic-readouts"
+url: "https://huggingface.co/datasets/ec75hash/qwen36-arithmetic-readouts"

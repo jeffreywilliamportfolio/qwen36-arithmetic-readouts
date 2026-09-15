@@ -1,0 +1,29 @@
+name: Reproduce published measurements
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify frozen preregistration records
+        run: sha256sum -c FREEZE.verify.sha256
+      - name: Download and verify pinned evidence
+        run: python scripts/fetch_evidence.py
+      - name: Recompute every published item and aggregate
+        run: python analysis/score.py --check --out recomputed
+      - name: Validate API requests and calibration inputs without inference
+        run: |
+          python scripts/run_api.py --dry-run
+          python scripts/fit_pile_lens.py --dry-run

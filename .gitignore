@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+.cache/
+.venv/
+evidence/
+artifacts/
+lenses/
+recomputed/
+verification-output/
+fit-output/
+fresh-api/
+fresh-local/
+fresh-fit/

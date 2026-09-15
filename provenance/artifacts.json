@@ -1,0 +1,20 @@
+{
+  "raw_reads": {
+    "path": "artifacts/raw_reads.tar.gz",
+    "sha256": "d1588433a1e5e08b5fd344abdc8d89822b845b35deebe894ef49e8c2ab1a47e6",
+    "bytes": 86260048,
+    "files": 1349,
+    "uncompressed_bytes": 270133603
+  },
+  "pile5_lens": {
+    "path": "lenses/qwen36_pile5.pt",
+    "sha256": "fd9af5fdb7322c9559e7a4702a845c7db0d92f780e53fdf415df899e065e0022",
+    "bytes": 3250605069,
+    "n_prompts": 5,
+    "d_model": 5120,
+    "source_layers": "0-61",
+    "target_block": 62,
+    "dtype": "torch.float16",
+    "note": "Original checkpoint bytes; SHA-256 matches the frozen v2 capture manifest. The checkpoint contains the five-prompt fit documented in preregistration/record/PREREG_orderops_v2_ADDENDUM5.md."
+  }
+}
